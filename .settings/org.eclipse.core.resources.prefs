@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+encoding//neteasemusic/items.py=utf-8
+encoding//neteasemusic/jieba_extract.py=utf8
+encoding//neteasemusic/keyword_extract.py=utf8
+encoding//neteasemusic/middlewares.py=utf-8
+encoding//neteasemusic/pipelines.py=utf-8
+encoding//neteasemusic/resource.py=utf-8
+encoding//neteasemusic/settings.py=utf-8
+encoding//neteasemusic/spiders/BillBoard_Spider.py=utf-8
+encoding//neteasemusic/spiders/BoardSongs_Spider.py=utf-8
+encoding//neteasemusic/spiders/Music_Spider.py=utf-8
+encoding/<project>=UTF-8

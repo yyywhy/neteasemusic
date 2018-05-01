@@ -1,0 +1,14 @@
+conn=MySQLdb.connect(host='127.0.0.1',
+		port=3306,
+		user='yyywhy',
+		passwd='135156',
+		db='musiccomments',
+		charset='utf8')
+cur=conn.cursor()
+cur.execute("select * from billboard")
+values=cur.fetchall()
+sum=0
+for i in values:
+	cur.execute("select count(id) from %s" %i[2])
+	t=cur.fetchall()
+	sum+=t[0][0]
